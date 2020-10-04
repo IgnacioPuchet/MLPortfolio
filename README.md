@@ -1,15 +1,15 @@
 # MLPortfolio
 Portfolio de Machine Learning
-[Caso de estudio: Predicción de enfermedad del corazón](https://github.com/IgnacioPuchet/MLPortfolio)
+# [Caso de estudio: Predicción de enfermedad del corazón](https://github.com/IgnacioPuchet/MLPortfolio)
 
 El objetivo del caso de estudio es ayudar al realizar un diagnóstico acertado sobre 
 una enfermeddad del corazón a partir de distintas bases de datos que contienen datos 
 históricos sobre pacientes de distintas instituciones médicas. Los datos provienen de
 las siguientes instituciones: 
--Cleveland Clinic Foundation
--Hungarian Institute of Cardiology, Budapest
--V.A. Medical Center, Long Beach, CA
--University Hospital, Zurich, Switzerland
+- Cleveland Clinic Foundation
+- Hungarian Institute of Cardiology, Budapest
+- V.A. Medical Center, Long Beach, CA
+- University Hospital, Zurich, Switzerland
 
 Estos datos de distintas fuentes deben ser integrados para poder disponer de la mayor cantidad posible 
 de entradas para el modelo de aprendizaje automático.
