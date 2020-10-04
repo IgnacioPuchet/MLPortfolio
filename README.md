@@ -1,6 +1,6 @@
 # MLPortfolio
 Portfolio de Machine Learning
-# [Caso de estudio: Predicción de enfermedad del corazón](https://github.com/IgnacioPuchet/MLPortfolio)
+# [Caso de estudio: Predicción de enfermedad del corazón](https://github.com/IgnacioPuchet/MLPortfolio/heartdisease)
 
 El objetivo del caso de estudio es ayudar al realizar un diagnóstico acertado sobre 
 una enfermeddad del corazón a partir de distintas bases de datos que contienen datos 
@@ -20,7 +20,9 @@ bajo circunstancias anormales, etc.
 Luego de realizado el depurado se seleccionan los modelos que se consideren más apropiados obteniendo sus
 rendimientos individuales con el fin de comparar su performance en le predicción. 
 
-# [Caso de estudio: Insuficiencia Cardíaca](https://github.com/IgnacioPuchet/MLPortfolio)
+// en proceso de curación de datos
+
+# [Caso de estudio: Insuficiencia Cardíaca](https://github.com/IgnacioPuchet/MLPortfolio/heartfailure)
 
 En este caso de estudio se intenta predecir la probabilidad de que un paciente fallezca luego de haber sufrido una insuficiencia cardíaca.
 Este es un tema relevante en la actualidad ya que las muertes causadas por insuficiencia cardiaca han aumentado un 38% en el periodo comprendido 
@@ -48,7 +50,23 @@ Observando los datos en rapid miner se puede ver que la mayoría de los atributo
 ![](/heartfailure/creatininaFosfo.PNG)
 ![](/heartfailure/serumCretinina.PNG)
 
+Con respecto a la variable objetivo los resultados dan que 203(aproximadamente un 68%) de los pacientes sobrevive luego de sufrir una insuficiencia cardíaca y los restantes 96(aproximadamente 32%) fallecen dentro del período de seguimiento.
+
 
 ## Preparación de datos
 Inicialmente no se descarta ningún atributo al no encontrar ninguno que pueda ser irrelevante para el resultado final.
+No se detectan datos faltantes.
+
+## Modelo utilizando árboles de decisión
+
+![](/heartfailure/modelDT.PNG)
+
+### Rendimiento del entrenamiento
+
+![](/heartfailure/PerformanceTraining.PNG)
+
+### Rendimiento del test
+
+![](/heartfailure/PerformanceTest.PNG)
+
 
