@@ -1,6 +1,6 @@
 # MLPortfolio
 Portfolio de Machine Learning
-# [Caso de estudio: Predicción de enfermedad del corazón](/heartdisease)
+# [Caso de estudio: Predicción de enfermedad del corazón](https://github.com/IgnacioPuchet/MLPortfolio/tree/main/heartdisease)
 
 El objetivo del caso de estudio es ayudar al realizar un diagnóstico acertado sobre 
 una enfermeddad del corazón a partir de distintas bases de datos que contienen datos 
@@ -22,7 +22,7 @@ rendimientos individuales con el fin de comparar su performance en le predicció
 
 // en proceso de curación de datos
 
-# [Caso de estudio: Insuficiencia Cardíaca](/heartfailure)
+# [Caso de estudio: Insuficiencia Cardíaca](https://github.com/IgnacioPuchet/MLPortfolio/tree/main/heartfailure)
 
 En este caso de estudio se intenta predecir la probabilidad de que un paciente fallezca luego de haber sufrido una insuficiencia cardíaca.
 Este es un tema relevante en la actualidad ya que las muertes causadas por insuficiencia cardiaca han aumentado un 38% en el periodo comprendido 
