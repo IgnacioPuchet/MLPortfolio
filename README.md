@@ -43,6 +43,8 @@ Los atributos que componen el dataset son los siguientes:
 - tiempo: período de seguimiento en días luego de la insuficiencia(entero)
 - Muerte (variable objetivo): el paciente falleció durante el período de seguimiento (binomial)
 Observando los datos en rapid miner se puede ver que la mayoría de los atributos numericos tienen una distribución casi normal(edad, fracción de eyección, sodio sérico, plaquetas) sin observarse valores fuera de lo común sin embargo en los atributos de creatinina fosfoquinasa y creatinina sérica se detecta una distribución exponencial con la mayoria de los valores cercanos a 0.
+![](/heartfailure/creatininaFosfo.png)
+![](/heartfailure/serumCretinina.png)
 
 
 ## Preparación de datos
