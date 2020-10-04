@@ -19,3 +19,32 @@ datos atipicos que aporten ruido a la predicción ya sea porque puedan haber sid
 bajo circunstancias anormales, etc. 
 Luego de realizado el depurado se seleccionan los modelos que se consideren más apropiados obteniendo sus
 rendimientos individuales con el fin de comparar su performance en le predicción. 
+
+# [Caso de estudio: Insuficiencia Cardíaca](https://github.com/IgnacioPuchet/MLPortfolio)
+
+En este caso de estudio se intenta predecir la probabilidad de que un paciente fallezca luego de haber sufrido una insuficiencia cardíaca.
+Este es un tema relevante en la actualidad ya que las muertes causadas por insuficiencia cardiaca han aumentado un 38% en el periodo comprendido 
+entre 2011 y 2017 según un estudio publicado en la revista médica JAMA Cardiology de Estados Unidos por lo tanto conocer el impacto que puedan tener distintas 
+caracteristicas que se presentan en pacientes que hayan sufrido insuficiencia cardíaca puede ser fundamental para prevenir muertes en poblaciones de riesgo.
+## Composición del dataset 
+El dataset fue recolectado por la Government College University de Pakistan.
+Los atributos que componen el dataset son los siguientes:
+- edad: edad del paciente en años(entero)
+- anemia: disminución de glóbulos rojos o hemoglobina (binomial)
+- presión arterial alta: el paciente tiene hipertensión (binomial)
+- creatinina fosfoquinasa (CPK): nivel de la enzima CPK en sangre en mcg/L(entero)
+- diabetes: el paciente tiene diabetes (binomial)
+- fracción de eyección: porcentaje de sangre que sale del corazón en cada contracción (porcentaje entero)
+- plaquetas: plaquetas en sangre se mide en kiloplaquetas/ml(real)
+- sexo: mujer u hombre (binomial)
+- creatinina sérica: nivel de creatinina sérica en sangre en mg/dl(real)
+- sodio sérico: nivel de sodio sérico en sangre se mide en mEq/L(entero)
+- tabaquismo: si el paciente fuma o no (binomial)
+- tiempo: período de seguimiento en días luego de la insuficiencia(entero)
+- Muerte (variable objetivo): el paciente falleció durante el período de seguimiento (binomial)
+Observando los datos en rapid miner se puede ver que la mayoría de los atributos numericos tienen una distribución casi normal(edad, fracción de eyección, sodio sérico, plaquetas) sin observarse valores fuera de lo común sin embargo en los atributos de creatinina fosfoquinasa y creatinina sérica se detecta una distribución exponencial con la mayoria de los valores cercanos a 0.
+
+
+## Preparación de datos
+Inicialmente no se descarta ningún atributo al no encontrar ninguno que pueda ser irrelevante para el resultado final.
+
