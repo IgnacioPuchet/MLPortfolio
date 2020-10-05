@@ -30,6 +30,9 @@ entre 2011 y 2017 según un estudio publicado en la revista médica JAMA Cardiol
 caracteristicas que se presentan en pacientes que hayan sufrido insuficiencia cardíaca puede ser fundamental para prevenir muertes en poblaciones de riesgo.
 ## Composición del dataset 
 El dataset fue recolectado por la Government College University de Pakistan.
+
+[Ver dataset](https://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records)
+
 Los atributos que componen el dataset son los siguientes:
 - edad: edad del paciente en años(entero)
 - anemia: disminución de glóbulos rojos o hemoglobina (binomial)
@@ -56,6 +59,7 @@ Con respecto a la variable objetivo los resultados dan que 203(aproximadamente u
 ## Preparación de datos
 Inicialmente no se descarta ningún atributo al no encontrar ninguno que pueda ser irrelevante para el resultado final.
 No se detectan datos faltantes.
+El 70% de los datos se destinan a entrenamiento y el restante 30% a testeo del modelo.
 
 ## Modelo utilizando árboles de decisión
 
