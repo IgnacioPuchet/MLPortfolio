@@ -11,49 +11,39 @@ description: this is my description
     <title>This is the title of the webpage!</title>
   </head>
   <body>
-    ## Composición del dataset 
-El dataset fue recolectado por la Government College University de Pakistan.
+    <h2 id="composici-n-del-dataset">Composición del dataset</h2>
+  <p>El dataset fue recolectado por la Government College University de Pakistan.</p>
+  <p><a href="https://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records">Ver dataset</a></p>
+  <p>Los atributos que componen el dataset son los siguientes:</p>
+  <ul>
+  <li>edad: edad del paciente en años(entero)</li>
+  <li>anemia: disminución de glóbulos rojos o hemoglobina (binomial)</li>
+  <li>presión arterial alta: el paciente tiene hipertensión (binomial)</li>
+  <li>creatinina fosfoquinasa (CPK): nivel de la enzima CPK en sangre en mcg/L(entero)</li>
+  <li>diabetes: el paciente tiene diabetes (binomial)</li>
+  <li>fracción de eyección: porcentaje de sangre que sale del corazón en cada contracción (porcentaje entero)</li>
+  <li>plaquetas: plaquetas en sangre se mide en kiloplaquetas/ml(real)</li>
+  <li>sexo: mujer u hombre (binomial)</li>
+  <li>creatinina sérica: nivel de creatinina sérica en sangre en mg/dl(real)</li>
+  <li>sodio sérico: nivel de sodio sérico en sangre se mide en mEq/L(entero)</li>
+  <li>tabaquismo: si el paciente fuma o no (binomial)</li>
+  <li>tiempo: período de seguimiento en días luego de la insuficiencia(entero)</li>
+  <li>Muerte (variable objetivo): el paciente falleció durante el período de seguimiento (binomial)</li>
+  </ul>
+  <p>Observando los datos en rapid miner se puede ver que la mayoría de los atributos numericos tienen una distribución casi normal(edad, fracción de eyección, sodio sérico, plaquetas) sin observarse valores fuera de lo común sin embargo en los atributos de creatinina fosfoquinasa y creatinina sérica se detecta una distribución exponencial con la mayoria de los valores cercanos a 0.</p>
+  <p><img src="/heartfailure/creatininaFosfo.PNG" alt="">
+  <img src="/heartfailure/serumCretinina.PNG" alt=""></p>
+  <p>Con respecto a la variable objetivo los resultados dan que 203(aproximadamente un 68%) de los pacientes sobrevive luego de sufrir una insuficiencia cardíaca y los restantes 96(aproximadamente 32%) fallecen dentro del período de seguimiento.</p>
+  <h2 id="preparaci-n-de-datos">Preparación de datos</h2>
+  <p>Inicialmente no se descarta ningún atributo al no encontrar ninguno que pueda ser irrelevante para el resultado final.
+  No se detectan datos faltantes.
+  El 70% de los datos se destinan a entrenamiento y el restante 30% a testeo del modelo.</p>
+  <h2 id="modelo-utilizando-rboles-de-decisi-n">Modelo utilizando árboles de decisión</h2>
+  <p><img src="/heartfailure/modelDT.PNG" alt=""></p>
+  <h3 id="rendimiento-del-entrenamiento">Rendimiento del entrenamiento</h3>
+  <p><img src="/heartfailure/PerformanceTraining.PNG" alt=""></p>
+  <h3 id="rendimiento-del-test">Rendimiento del test</h3>
+  <p><img src="/heartfailure/PerformanceTest.PNG" alt=""></p>
 
-[Ver dataset](https://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records)
-
-Los atributos que componen el dataset son los siguientes:
-- edad: edad del paciente en años(entero)
-- anemia: disminución de glóbulos rojos o hemoglobina (binomial)
-- presión arterial alta: el paciente tiene hipertensión (binomial)
-- creatinina fosfoquinasa (CPK): nivel de la enzima CPK en sangre en mcg/L(entero)
-- diabetes: el paciente tiene diabetes (binomial)
-- fracción de eyección: porcentaje de sangre que sale del corazón en cada contracción (porcentaje entero)
-- plaquetas: plaquetas en sangre se mide en kiloplaquetas/ml(real)
-- sexo: mujer u hombre (binomial)
-- creatinina sérica: nivel de creatinina sérica en sangre en mg/dl(real)
-- sodio sérico: nivel de sodio sérico en sangre se mide en mEq/L(entero)
-- tabaquismo: si el paciente fuma o no (binomial)
-- tiempo: período de seguimiento en días luego de la insuficiencia(entero)
-- Muerte (variable objetivo): el paciente falleció durante el período de seguimiento (binomial)
-
-Observando los datos en rapid miner se puede ver que la mayoría de los atributos numericos tienen una distribución casi normal(edad, fracción de eyección, sodio sérico, plaquetas) sin observarse valores fuera de lo común sin embargo en los atributos de creatinina fosfoquinasa y creatinina sérica se detecta una distribución exponencial con la mayoria de los valores cercanos a 0.
-
-![](/heartfailure/creatininaFosfo.PNG)
-![](/heartfailure/serumCretinina.PNG)
-
-Con respecto a la variable objetivo los resultados dan que 203(aproximadamente un 68%) de los pacientes sobrevive luego de sufrir una insuficiencia cardíaca y los restantes 96(aproximadamente 32%) fallecen dentro del período de seguimiento.
-
-
-## Preparación de datos
-Inicialmente no se descarta ningún atributo al no encontrar ninguno que pueda ser irrelevante para el resultado final.
-No se detectan datos faltantes.
-El 70% de los datos se destinan a entrenamiento y el restante 30% a testeo del modelo.
-
-## Modelo utilizando árboles de decisión
-
-![](/heartfailure/modelDT.PNG)
-
-### Rendimiento del entrenamiento
-
-![](/heartfailure/PerformanceTraining.PNG)
-
-### Rendimiento del test
-
-![](/heartfailure/PerformanceTest.PNG)
   </body>
 </html>
