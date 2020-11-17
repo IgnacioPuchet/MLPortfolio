@@ -1,6 +1,3 @@
-# [MLPortfolio](https://ignaciopuchet.github.io/MLPortfolio/)
-Portfolio de Machine Learning
-
 # Caso de estudio: Estudio Airbnb
 
 Inicialmente me planteo la situación de partir no de un problema ya identificado y plantear posibles soluciones sino que a partir de un conjunto de datos que pudiera ser interesante identificar posibles usos que se le podrían dar a los datos procesados para mejorar algún proceso, identificar problemas y solucionarlos, aumentar ganancias de una empresa, etc. 
