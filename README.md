@@ -17,3 +17,9 @@ entre 2011 y 2017 según un estudio publicado en la revista médica JAMA Cardiol
 caracteristicas que se presentan en pacientes que hayan sufrido insuficiencia cardíaca puede ser fundamental para prevenir muertes en poblaciones de riesgo.
 
 <a href="heartfailure/index.html">Ver caso completo..</a>
+
+# [Caso de estudio: Estudio Airbnb](https://github.com/IgnacioPuchet/MLPortfolio/tree/main/Airbnb)
+
+Inicialmente me planteo la situación de partir no de un problema ya identificado y plantear posibles soluciones sino que a partir de un conjunto de datos que pudiera ser interesante identificar posibles usos que se le podrían dar a los datos procesados para mejorar algún proceso, identificar problemas y solucionarlos, aumentar ganancias de una empresa, etc. 
+
+<a href="Airbnb/index.html">Ver caso completo..</a>
