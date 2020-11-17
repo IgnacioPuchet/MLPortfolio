@@ -2,27 +2,12 @@
 Portfolio de Machine Learning
 # [Caso de estudio: Predicción de enfermedad del corazón](https://github.com/IgnacioPuchet/MLPortfolio/tree/main/heartdisease)
 
-<a href="heartfailure/">Help</a>
-
 El objetivo del caso de estudio es ayudar al realizar un diagnóstico acertado sobre 
 una enfermeddad del corazón a partir de distintas bases de datos que contienen datos 
-históricos sobre pacientes de distintas instituciones médicas. Los datos provienen de
-las siguientes instituciones: 
-- Cleveland Clinic Foundation
-- Hungarian Institute of Cardiology, Budapest
-- V.A. Medical Center, Long Beach, CA
-- University Hospital, Zurich, Switzerland
+históricos sobre pacientes de distintas instituciones médicas.
 
-Estos datos de distintas fuentes deben ser integrados para poder disponer de la mayor cantidad posible 
-de entradas para el modelo de aprendizaje automático.
-Incialmente estos datos deben ser analizados para identificar las caracteristicas que puedan
-ser mas relevantes a la hora de predecir la enfermedad del corazón. También se deben descartar 
-datos atipicos que aporten ruido a la predicción ya sea porque puedan haber sido obtenidos incorrectamente,
-bajo circunstancias anormales, etc. 
-Luego de realizado el depurado se seleccionan los modelos que se consideren más apropiados obteniendo sus
-rendimientos individuales con el fin de comparar su performance en le predicción. 
+<a href="heartdisease/index.html">Ver..</a>
 
-// en proceso de curación de datos
 
 # [Caso de estudio: Insuficiencia Cardíaca](https://github.com/IgnacioPuchet/MLPortfolio/tree/main/heartfailure)
 
@@ -30,6 +15,8 @@ En este caso de estudio se intenta predecir la probabilidad de que un paciente f
 Este es un tema relevante en la actualidad ya que las muertes causadas por insuficiencia cardiaca han aumentado un 38% en el periodo comprendido 
 entre 2011 y 2017 según un estudio publicado en la revista médica JAMA Cardiology de Estados Unidos por lo tanto conocer el impacto que puedan tener distintas 
 caracteristicas que se presentan en pacientes que hayan sufrido insuficiencia cardíaca puede ser fundamental para prevenir muertes en poblaciones de riesgo.
+<a href="heartfailure/index.html">Ver..</a>
+
 ## Composición del dataset 
 El dataset fue recolectado por la Government College University de Pakistan.
 
