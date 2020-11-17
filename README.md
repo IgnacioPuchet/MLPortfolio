@@ -2,6 +2,8 @@
 Portfolio de Machine Learning
 # [Caso de estudio: Predicción de enfermedad del corazón](https://github.com/IgnacioPuchet/MLPortfolio/tree/main/heartdisease)
 
+<a href="heartfailure/">Help</a>
+
 El objetivo del caso de estudio es ayudar al realizar un diagnóstico acertado sobre 
 una enfermeddad del corazón a partir de distintas bases de datos que contienen datos 
 históricos sobre pacientes de distintas instituciones médicas. Los datos provienen de
