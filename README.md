@@ -1,4 +1,4 @@
-# [MLPortfolio](https://github.com/IgnacioPuchet/MLPortfolio)
+# [MLPortfolio](https://ignaciopuchet.github.io/MLPortfolio/)
 Portfolio de Machine Learning
 
 # Caso de estudio: Estudio Airbnb
