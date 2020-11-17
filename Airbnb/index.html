@@ -103,6 +103,19 @@ Con un previo tratamiento la descripcion de la publicación podría ofrecer info
 De igual manera consultando servicios de información a partir de la ubicación dada por la latitud y la longitud se podrían identificar centros de interés turisticos en la zona, indice de criminalidad, etc.
 Se realiza en Rapidminer la carga del dataset, el remplazo de valores faltantes, la depuración de datos incoherentes, la selección de atributos, la definicion de la variable objetivo y un shuffle para que los datos ingresen de forma lo más aleatorio posible al modelo.</p>
 <p><img src="images/preRM.png" alt="">
+  <p>Como se cuenta con un solo dataset se realiza un split para separarlo en datos de entrenamiento y de test con una configuración de 70% para training y 30% para test.</p> 
+<h1>Elección del Modelo</h1>
+<p>Recordando un ejercicio similar realizado en el curso de Inteligencia Artificial donde se intentaba predecir el precio de las viviendas de Bóston se decide probar el modelo con regresión lineal. Para eso previamente se deben adaptar los atributos polinominales a numéricos para poder ser reconocidos por el modelo y eliminar todos los valores faltantes.</p>
+<p><img src="images/nomToNum.png" alt="">
+  <p><img src="images/LR.png" alt="">
+    <p>Los resultados obtenidos de performance son los siguientes:</p>
+<p><img src="images/perfLR.png" alt="">
+  <p>Como siguiente modelo se decide probar el Gradient Boosted Tree ya que permite realizar varias iteraciones con árboles de decisión así como también la importancia de cada atributo en la decisión de la variable de salida.</p>
+<p><img src="images/GB.png" alt="">
+<p>Como era de suponer el barrio tiene gran peso en la decisión final del precio del alquiler seguido de la disponibilidad en los próximos 365 días. Sorprende que el type_room no se encuentre entre las variables de más importancia.</p>
+<p><img src="images/perfGB.png" alt="">
+  <p>Comparando la performance se obtiene un mejor comportamiento en el modelo de regresión lineal con menores errores relativos en la predicción.</p>
+
 <h1>Conclusiones</h1>
 <p>El modelo aporta una estimación bastante buena de cuál debería ser el precio dados los atributos disponibles pero sin embargo podría ser mucho más acertado si se contara con más atributos relevantes. Un ejemplo de atributo importante a conocer es si las reviews obtenidas son positivas o negativas, esto se podría lograr si se pudiera acceder a las reviews y a partir de ellas identificar palabras claves que tengan impacto positivo (“excelente”,”muy bueno”, ”perfecto”, “barato”, etc.) o negativo(“malo”, “pésimo”, “caro”, etc.) y así definirla como review positiva o negativa. Como los datos del dataset solamente se tienen la cantidad de reviews no se puede concluir con total certeza que a cuantas más reviews mayor valor va a tener el alquiler ya que podría significar que se alquila mucho por ser barato pero las reviews sean malas y por lo tanto un cliente esperaría pagar menos.
 Otra posibilidad de mejora al modelo es la posibilidad de tener imágenes de la publicación para mediante redes neuronales identificar si una imagen es de buena calidad</p>
