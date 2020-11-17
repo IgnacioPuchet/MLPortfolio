@@ -19,7 +19,6 @@ Para realizar un estudio de los atributos se selecciona el dataset de Buenos Air
     <h1>Observación de atributos del dataset</h1>
     <p>El dataset está compuesto por más de 20000 datos con un total de 16 atributos obtenidos desde el siguiente link </p> 
     <a href="http://insideairbnb.com/get-the-data.html">datasets Airbnb</a>
-    http://insideairbnb.com/get-the-data.html
 <p>Id es un entero que identifica a la publicación</p>
  <p><img src="images/id.png" alt="">
    <p></p>
@@ -102,7 +101,7 @@ Para realizar un estudio de los atributos se selecciona el dataset de Buenos Air
 Se descartan aributos que no aportan a la predicción ya que sirven como identificadores o que no dan información directa como: host_name, descripción de la publicación, host_id, etc.
 Con un previo tratamiento la descripcion de la publicación podría ofrecer información importante que le agregue valor a la publicación como por ejemplo la cercanía con estaciones/aeropuertos/restaurantes, si cuenta con buena iluminación, la cantidad de camas, etc.
 De igual manera consultando servicios de información a partir de la ubicación dada por la latitud y la longitud se podrían identificar centros de interés turisticos en la zona, indice de criminalidad, etc.
-Se realiza en Rapidminer la carga del dataset, el remplazo de valores faltantes, la depuración de datos incoherentes, la selección de atributos y la definicion de la variable objetivo.</p>
+Se realiza en Rapidminer la carga del dataset, el remplazo de valores faltantes, la depuración de datos incoherentes, la selección de atributos, la definicion de la variable objetivo y un shuffle para que los datos ingresen de forma lo más aleatorio posible al modelo.</p>
 <p><img src="images/preRM.png" alt="">
 <h1>Conclusiones</h1>
 <p>El modelo aporta una estimación bastante buena de cuál debería ser el precio dados los atributos disponibles pero sin embargo podría ser mucho más acertado si se contara con más atributos relevantes. Un ejemplo de atributo importante a conocer es si las reviews obtenidas son positivas o negativas, esto se podría lograr si se pudiera acceder a las reviews y a partir de ellas identificar palabras claves que tengan impacto positivo (“excelente”,”muy bueno”, ”perfecto”, “barato”, etc.) o negativo(“malo”, “pésimo”, “caro”, etc.) y así definirla como review positiva o negativa. Como los datos del dataset solamente se tienen la cantidad de reviews no se puede concluir con total certeza que a cuantas más reviews mayor valor va a tener el alquiler ya que podría significar que se alquila mucho por ser barato pero las reviews sean malas y por lo tanto un cliente esperaría pagar menos.
